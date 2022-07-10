@@ -24,7 +24,7 @@ class MakeThings(object):
         for i in range(random.randint(1,100)):
             Nums2.append(random.randint(1,10000))
         return Nums1, Nums2
-
+#Testing
 for i in range(100):
     Num1, Num2 = MakeThings.createRandomThing()
     print(Solution.findMedianSortedArrays(Num1, Num2) == Solutionv.findMedianSortedArrays(Num1, Num2))
